@@ -1,0 +1,14 @@
+    <html>
+    <!-- Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $.ajax({
+        type: "GET",
+        url: 'http://www.sgdatadog.com/us_stock_price?&symbols=IBM&APIKEY=YOUR_API_KEY',
+        success: function(data) {
+            console.log(data)
+        }
+    }); 
+    </script>
+    </html>  
+    
